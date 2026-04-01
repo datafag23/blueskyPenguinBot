@@ -6,7 +6,7 @@ from datetime import datetime, timezone, timedelta
 
 # Bluesky credentials
 BLUESKY_HANDLE = "joealwynpenguin.bsky.social"
-BLUESKY_PASSWORD = "areo-7oij-ej7h-gbhp"
+BLUESKY_PASSWORD = os.environ.get("BLUESKY_PASSWORD")
 
 # Path to the image you want to reply with
 FUNERAL_IMAGE_PATH = "funeral_image.jpeg"
