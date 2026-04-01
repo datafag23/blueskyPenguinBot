@@ -2,7 +2,7 @@ name: Hourly Bluesky Bot
 
 on:
   schedule:
-    - cron: '13 * * * *' # Runs at 13 minutes past the hour (Minute 13)
+    - cron: '27 * * * *' # Runs at 27 minutes past the hour (Minute 27)
   workflow_dispatch: # Allows you to trigger it manually by clicking a button
 
 permissions:
