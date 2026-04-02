@@ -5,7 +5,7 @@ from atproto import Client
 from datetime import datetime, timezone, timedelta
 
 # Bluesky credentials
-BLUESKY_HANDLE = "joealwynpenguin.bsky.social"
+BLUESKY_HANDLE = "joealwynpenguin.femboy.gg"
 BLUESKY_PASSWORD = os.environ.get("BLUESKY_PASSWORD")
 
 # Path to the image you want to reply with
